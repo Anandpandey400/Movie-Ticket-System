@@ -26,6 +26,12 @@ The Movie Ticket System is a comprehensive Java-based web application designed t
 
 - **MySQL**: The application relies on MySQL as its database management system to store and retrieve user information, movie details, showtimes, and booking records.
 
+- **Java JDBC Connecter**: [JAR FIle](movieticketbboking/mysql-connector-j-8.1.0.jar)
+
+- **Java JDK Version**: 19
+ 
+- **Netbeans Version**: 18
+
 ### How to Run
 
 1. **Clone the Repository**: Use the following command to clone the repository:
@@ -34,13 +40,9 @@ The Movie Ticket System is a comprehensive Java-based web application designed t
 git clone https://github.com/Anandpandey400/Movie-Ticket-System.git
 ```
 
-2. **Set up MySQL Database**: Create a MySQL database with name ejava and create tables refer /table_info.txt
+2. **Set up MySQL Database**: Create a MySQL database with name ejava and create tables refer [Database Info File](movieticketbboking/table_info.txt)
 
-3. **Configure Database Connection**: Open the project in your preferred IDE and navigate to the database configuration file to specify your MySQL connection details.
-
-4. **Deploy on a Servlet Container**: Deploy the application on a servlet container like Apache Tomcat.
-
-5. **Access the Application**: Open a web browser and enter the URL where the application is deployed.
+3. **Starting up**: Open Netbeans-> Open Project-> Select the movieticketbboking Folder.
 
 ### Contributors
 
