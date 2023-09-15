@@ -34,7 +34,7 @@ The Movie Ticket System is a comprehensive Java-based web application designed t
 git clone https://github.com/Anandpandey400/Movie-Ticket-System.git
 ```
 
-2. **Set up MySQL Database**: Create a MySQL database and import the provided SQL dump file to initialize the necessary tables and data.
+2. **Set up MySQL Database**: Create a MySQL database with name ejava and create tables refer /table_info.txt
 
 3. **Configure Database Connection**: Open the project in your preferred IDE and navigate to the database configuration file to specify your MySQL connection details.
 
