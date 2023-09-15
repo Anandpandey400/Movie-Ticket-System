@@ -31,7 +31,7 @@ The Movie Ticket System is a comprehensive Java-based web application designed t
 1. **Clone the Repository**: Use the following command to clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/MovieTicketSystem.git
+git clone https://github.com/Anandpandey400/Movie-Ticket-System.git
 ```
 
 2. **Set up MySQL Database**: Create a MySQL database and import the provided SQL dump file to initialize the necessary tables and data.
