@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <form method="post" action="addmovie" enctype="multipart/form-data">
+        <body>
+            <br><br><br><br><br>
+            <div class="w3-card-4 w3-padding">
+                <div class="w3-container w3-red w3-center">
+                    <h2>Add Movies</h2>
+                </div>
+
+                <p>      
+                    <label class="w3-text-black"><b>Movie Name</b></label>
+                    <input class="w3-input w3-border w3-sand" name="movie" type="text"></p>
+
+                <p>      
+                    <label class="w3-text-black"><b>Director</b></label>
+                    <input class="w3-input w3-border w3-sand" name="dir" type="text"></p>
+
+                    
+                    <label class="w3-text-black"><b>Genre</b></label>
+                    <select class="w3-select w3-border w3-sand" name="gen" id="gen">
+                        <option value="" disabled selected>Choose Genre</option>
+                        <option>Action</option>
+                        <option> Drama</option>
+                        <option>Thriller</option>
+                        <option>Horror</option>
+                        <option>Romance</option>
+                    </select>
+               
+                
+
+
+                    
+                        <p><label class="w3-text-black"><b>Language</b></label>
+                    <input class="w3-input w3-border w3-sand" name="lan" type="text"></p>
+
+                <p>      
+                    <label class="w3-text-black"><b>Poster</b></label>
+                    <input class="w3-input w3-border w3-sand" type="file" id="myfile" name="photo"></p>
+                <p>
+                <p>
+                    <button class="w3-btn w3-red">Add</button></p>
+
+            </div>
+
+        </body>
+    </form>
+</html> 
+
