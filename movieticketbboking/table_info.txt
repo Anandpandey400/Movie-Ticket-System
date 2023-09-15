@@ -1,0 +1,34 @@
+// for admin table
+create table admin(
+user varchar(250),
+pass varchar(250)
+);
+
+
+insert into admin(user,pass)
+values('admin','admin');
+
+// for user table
+create table user(
+user	varchar(250),
+pass	varchar(250),
+name	varchar(250),
+email	varchar(250),
+phone	varchar(250)
+);
+
+//for movie table
+create table movie(
+moviename	varchar(250),
+director	varchar(250),
+genre	varchar(250),
+language	varchar(250),
+poster	blob	
+)
+
+//for purchase table
+create table purchase(
+name	varchar(250)
+amount	varchar(250)
+movie	varchar(250)
+);
